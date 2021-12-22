@@ -1,6 +1,7 @@
-/.tx/
-/build/
-/bin/
-.editorcongif
-.gitattributes
+$ cat .gitignore
+bin/**
+build/**
+nbproject/**
+.idea/**
+.vscode/**
 modulebuilder.txt
