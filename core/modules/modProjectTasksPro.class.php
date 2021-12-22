@@ -161,7 +161,7 @@ class modProjectTasksPro extends DolibarrModules
 
 		// Prerequisites
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(11, -3); // Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(8, -3); // Minimum version of Dolibarr required by module
 
 		// Messages at activation
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
@@ -284,16 +284,19 @@ class modProjectTasksPro extends DolibarrModules
 		/* BEGIN MODULEBUILDER PERMISSIONS */
 		$this->rights[$r][0] = 300004001; // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Read objects of ProjectTasksPro'; // Permission label
+		$this->rights[$r][3] = 1;
 		$this->rights[$r][4] = 'projecttaskspro';
 		$this->rights[$r][5] = 'read'; // In php code, permission will be checked by test if ($user->rights->projecttaskspro->myobject->read)
 		$r++;
 		$this->rights[$r][0] = 300004002; // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Create/Update objects of ProjectTasksPro'; // Permission label
+		$this->rights[$r][3] = 1;
 		$this->rights[$r][4] = 'projecttaskspro';
 		$this->rights[$r][5] = 'write'; // In php code, permission will be checked by test if ($user->rights->projecttaskspro->myobject->write)
 		$r++;
 		$this->rights[$r][0] = 300004003; // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Delete objects of ProjectTasksPro'; // Permission label
+		$this->rights[$r][3] = 1;
 		$this->rights[$r][4] = 'projecttaskspro';
 		$this->rights[$r][5] = 'delete'; // In php code, permission will be checked by test if ($user->rights->projecttaskspro->myobject->delete)
 		$r++;

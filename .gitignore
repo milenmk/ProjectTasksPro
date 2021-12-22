@@ -1,0 +1,6 @@
+/.tx/
+/build/
+/bin/
+.editorcongif
+.gitattributes
+modulebuilder.txt
