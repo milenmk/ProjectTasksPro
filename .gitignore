@@ -1,6 +1,10 @@
 $ cat .gitignore
+bin/*
 bin/**
+build/*
 build/**
+/bin/
+/build/
 nbproject/**
 .idea/**
 .vscode/**
