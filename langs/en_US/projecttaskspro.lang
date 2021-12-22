@@ -1,0 +1,56 @@
+# Copyright (C) 2021 Milen Karaganski <milen@blacktiehost.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleProjectTasksProName'
+ModuleProjectTasksProName = Project Tasks Pro
+# Module description 'ModuleProjectTasksProDesc'
+ModuleProjectTasksProDesc = Project Tasks Pro description
+
+#
+# Admin page
+#
+ProjectTasksProSetup = Project Tasks Pro setup
+Settings = Settings
+ProjectTasksProSetupPage = ProjectTasks Pro setup page
+
+
+#
+# About page
+#
+About = About
+ProjectTasksProAbout = About Project Tasks Pro
+ProjectTasksProAboutPage = Project Tasks Pro about page
+
+#
+# Pages
+#
+
+#
+# Widget
+#
+
+#
+# Tabs
+#
+CloneProjectTasks=Clone tasks
+AlertSetTask=Please select at-least one task
+DeleteProjectTasks=Delete tasks
+AlertSetTask=Please select at-least one task
+ToDelete=Delete tasks
+RecordDeleted=Record Deleted

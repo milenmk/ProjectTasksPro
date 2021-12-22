@@ -1,0 +1,56 @@
+# Copyright (C) 2021 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleProjectTasksProName'
+ModuleProjectTasksProName = Задачи от проект ПРО
+# Module description 'ModuleProjectTasksProName'
+ModuleProjectTasksProDesc = Задачи от проект ПРО - Описание
+
+#
+# Admin page
+#
+ProjectTasksProSetup = Задачи от проект ПРО - настройки
+Settings = Настройки
+ProjectTasksProSetupPage = Задачи от проект ПРО - страница с настройки
+
+
+#
+# About page
+#
+About = About
+ProjectTasksProAbout = Относно Задачи от проект ПРО
+ProjectTasksProAboutPage = Страница относно Задачи от проект ПРО
+
+#
+# Pages
+#
+
+#
+# Widget
+#
+
+#
+# Tabs
+#
+CloneProjectTasks=Клонирай задачи
+AlertSetTask=Моля изберете поне една задача
+DeleteProjectTasks=Изтрий задачи
+AlertSetTask=Моля изберете поне една задача
+ToDelete=Изтрий задачи
+RecordDeleted=Записът е изтрит
